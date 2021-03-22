@@ -117,13 +117,13 @@ BODY {
 <h2><b>Human and Object Detection in Videos</b></h2>
 We seek to detect human-object interactions in videos. In this example, our system is able to find ``human grooming horse'' in a dataset of videos. Our approach learns to detect such interactions in a weakly supervised fashion. 
 <br>
-<center><a> <img src="files/fig/teaser.png" style="float:none;width:500px"> </a></center>
+<!-- <center><a> <img src="files/fig/teaser.png" style="float:none;width:500px"> </a></center> -->
 <br>
 
 <h2><b>Weakly supervised spatiotemporal loss</b></h2>
 Our loss jointly aligns features for spatiotemporal regions in a video to (a) a language-embedding feature for an input query and (b) other spatiotemporal regions likely to contain the object.
 <br>
-<center><a> <img src="files/fig/loss.png" style="float:none;width:900px"> </a></center>
+<!-- <center><a> <img src="files/fig/loss.png" style="float:none;width:900px"> </a></center> -->
 <br>
 
 <h2><b>Model of Spatiotemporal Interactions</b></h2>
@@ -131,7 +131,7 @@ Model architecture of the proposed method. (a) is the overview of the training p
 (b) is the illustration of the feature aggregation module.
 In each frame, we use the Faster-RCNN/Densepose to extract the object and human region proposal locations and an ROI pooling layer to extract their features. The object/human score functions take the feature of a region proposal from the ROI pooling layer, the language phrase, and the frame feature $x'_t$ (do not show here) as input and output a score for the region. We aggregate the object/human region proposal features based on their scores from the score function to generate the aggregated object/human features.
 <br>
-<center><a> <img src="files/fig/model_pipeline.png" style="float:none;width:500px"> </a></center>
+<!-- <center><a> <img src="files/fig/model_pipeline.png" style="float:none;width:500px"> </a></center> -->
 <br>
 
 
@@ -164,7 +164,7 @@ Evaluation of various models on the unseen test set on V-HICO. The unseen test s
 Qualitative prediction of our model on the V-HICO test set with predicted human bounding box (red), predicted object bounding box (green), and input action-object label (bottom).
 <br>
 <br>
-<center><a> <img src="files/fig/results.png" style="float:none;width:900px"> </a></center>
+<!-- <center><a> <img src="files/fig/results.png" style="float:none;width:900px"> </a></center> -->
 <br>
 
 
