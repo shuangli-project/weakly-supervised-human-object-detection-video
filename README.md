@@ -1,4 +1,4 @@
-# Energy-Based Models for Continual Learning
-Energy-Based Models for Continual Learning
+# Weakly Supervised Human-Object Interaction Detection in Video via Contrastive Spatiotemporal Regions
+Weakly Supervised Human-Object Interaction Detection in Video via Contrastive Spatiotemporal Regions
 
-https://energy-based-model.github.io/Energy-Based-Models-for-Continual-Learning/
+https://shuangli-project.github.io/weakly-supervised-human-object-detection-video/
