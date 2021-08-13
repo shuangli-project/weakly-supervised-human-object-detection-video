@@ -1,3 +1,4 @@
-# Weakly Supervised Human and Object Detection via Spatiotemporal Interactions
+# Energy-Based Models for Continual Learning
+Energy-Based Models for Continual Learning
 
-https://shuangli-project.github.io/weakly-supervised-human-object-detection-video/
+https://energy-based-model.github.io/Energy-Based-Models-for-Continual-Learning/

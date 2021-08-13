@@ -1,0 +1,6 @@
+@article{li2020energy,
+  title={Energy-Based Models for Continual Learning},
+  author={Li, Shuang and Du, Yilun and van de Ven, Gido M and Torralba, Antonio and Mordatch, Igor},
+  journal={arXiv preprint arXiv:2011.12216},
+  year={2020}
+}
